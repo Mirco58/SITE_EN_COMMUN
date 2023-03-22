@@ -1,0 +1,43 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border-color: white;
+    position: relative;
+}
+
+#marques .bg-grey {
+    background-color: grey;
+}
+
+h3 {
+    padding-top: 150px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.block {
+    height: 5px;
+    width: 65px;
+    background-color: darkblue;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+      
+}
+
+.card {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-15px);
+    border-top-width: 15px solid black;
+    border-top: 10px solid black;
+  }
